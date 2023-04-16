@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 
-String host = '127.0.0.1:8080';
+String host = 'pidorlist.ru';
 
 final form = NumberFormat("#,##0.00", "en_US");
 

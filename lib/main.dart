@@ -42,6 +42,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset : false,
       backgroundColor: glob.maindark,
       appBar: AppBar(
         backgroundColor: const Color(0xff5B04BC),
